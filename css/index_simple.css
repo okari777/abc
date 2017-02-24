@@ -1,0 +1,66 @@
+.title{
+	font-size: 20pt;
+	font-family: serif;
+	color: #008080;
+}
+
+.title2{
+	font-size: 18pt;
+	font-family: serif;
+	color: red;
+}
+
+.wordStyle{
+	font-size: 16pt;
+}
+
+.blockquote {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+/*catch from teacher's html*/
+.style2 {
+	font-size: medium;
+}
+.style3 {
+	font-family: System;
+	font-size: medium;
+}
+.style4 {
+	font-size: large;
+}
+.style5 {
+	font-size: medium;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.style6 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #008080;
+}
+.style12 {
+				font-size: medium;
+				font-family: Arial, Helvetica, sans-serif;
+}
+.style13 {
+				font-size: medium;
+				margin-top: 0;
+				margin-bottom: 0;
+				font-family: Arial, Helvetica, sans-serif;
+}
+.style14 {
+				font-family: Arial, Helvetica, sans-serif;
+}
+.style15 {
+				margin-top: 0;
+				margin-bottom: 0;
+				font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,63 @@
+    ✣ 2007
+        黃致學 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> Design and Implementation of Gradient Domain 
+                           Compression and Photographic Tone Mapping for 
+                           Real-Time High Dynamic Range Video
+            <b>Status: </b>晨星半導體
+
+        謝丹青 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> A Perception-based High Dynamic Range Image 
+                           Encoding with Discrete Wavelet Transform
+            <b>Status: </b>聯詠科技
+		
+        王依盈 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> A 2.5G EoS IC with Flexible Cross-Connect LCAS 
+                           for Bandwidth Maximization
+            <b>Status: </b>台灣積體電路
+		
+        左定強 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> Design and Implementation of Real-Time Block-based 
+                           Gradient Domain High Dynamic Range Compression
+            <b>Status: </b>友達光電		
+
+        陳志豪 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> 3D Gradient Domain Tone Reproduction and Flicker 
+                           Removal for Video Sequcences
+            <b>Status: </b>訊連科技		
+		
+        楊秉霖 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> The High Speed Quarter-Rate 16/20:1 Parallel-to-Serial 
+                           Multiplexer with the Area-Saving RF Devices*
+                           (*共同指導: 許雅三、邱瀞德)
+            <b>Status: </b>台灣積體電路		
+		
+        許翔如 
+            <b>Graduate Time:</b> 2007
+            <b>Research Area:</b> Design of Ultra Low Power Current-Mode Logics with 
+                           Adaptive Body Bias*(*共同指導: 許雅三、邱瀞德)
+            <b>Status: </b> -
+
+    ✣ 2006
+	
+        杜明璋 
+            <b>Graduate Time:</b> 2006
+            <b>Research Area:</b> Real-Time User-Select Video Streaming on a Peer-to-Peer Network
+            <b>Status: </b> 晨星半導體
+
+        謝承潁 
+            <b>Graduate Time:</b> 2006
+            <b>Research Area:</b> Design and Implementations of OAM functions in MPLS network
+            <b>Status: </b> -
+
+        曾厚程  
+            <b>Graduate Time:</b> 2006
+            <b>Research Area:</b> A Flexible Cross-connect Link Capacity Adjustment 
+                           Scheme Mapper for Bandwidth Maximization in 2.5G EoS
+            <b>Status: </b> -
+	

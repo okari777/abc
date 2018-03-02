@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<head>
+	<title>Network Application Specific Integrated Circuit Lab</title>
+    <meta name="keywords" content="" />
+	<meta name="description" content="" />
+    <!-- 
+    Polygon Template
+    http://www.templatemo.com/tm-400-polygon
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+    <link href="css/templatemo_style.css" rel="stylesheet">
+	<link rel = "stylesheet" type = "text/css" href = "css/index_simple.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,600' rel='stylesheet' type='text/css'>
+      
+    <script src="js/jquery-1.10.2.min.js"></script> 
+	<script src="js/jquery.lightbox.js"></script>
+	<script src="js/templatemo_custom.js"></script>
+	<script src="js/show.js"></script>
+	<script src="js/script.js"></script>
+	<!--  Loading Googld API  -->
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	
+    <script>
+		function showhide(id)
+		{	// show more 
+			var div = document.getElementById(id);
+			if (div.style.display !== "none")
+			{
+				div.style.display = "none";
+			}
+			else {
+				div.style.display = "block";
+			}
+		}
+  	</script>
+</head>
+
+<body>
+	<!--  header  -->
+	<div class="site-header">
+		<div class="main-navigation">
+			<div class="container">
+				<div class="row templatemo_gallerygap"><!--  最上排目錄  -->
+					<div class="col-md-12 responsive-menu">
+						<a href="#" class="menu-toggle-btn">
+				            <i class="fa fa-bars"></i>
+				        </a>
+					</div> <!-- /.col-md-12 -->
+                   	<div class="col-md-3 col-sm-12">
+                    	<a href="#"><img src="images/nasic2.png" alt="Polygon HTML5 Template"></a>
+                    </div>
+					<div class="col-md-9 main_menu">
+						<ul>
+							<li><a href="index.html">
+                            	<span class="fa fa-flag"></span> <!--  目錄上的圖  -->
+                                About Lab</a></li>
+							<li><a href="Members.html">
+                            	<span class="fa fa-users"></span>
+                          		  Members</a></li>
+							<li><a href="Project.html">
+                            	<span class="fa fa-cogs"></span>
+                            	Project</a></li>
+							<li><a href="Activities.html">
+                            	<span class="fa fa-camera"></span>
+                            	Activities</a></li>
+							<li><a href="Contact.html">
+                            	<span class="fa fa-envelope"></span>
+                                Contact</a></li>
+						</ul>
+					</div> <!-- /.col-md-12 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</div> <!-- /.main-navigation -->
+	</div> <!-- /.site-header -->
+    
+		<!--  Members start  -->
+	<div class="templatemo_ourteam">
+				<!--  老師  -->
+				<div name = 'teacher'>
+					<div class="container templatemo_hexteam">
+						<div class="row">
+							<div id = "teacher"></div>
+							<div id = "ctchiu"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+				</div>
+				<img src="images/mark/flower.png" style="width:25%;height: 1%; margin-left: 35%;margin-top:5%;"/>
+				<!--  phd  -->
+				<div name='PhD'>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "tshsien"></div>
+							<div id = "phd-chung"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+				</div>
+				<img src="images/mark/flower.png" style="width:25%;height: 1%; margin-left: 35%;margin-top:5%;"/>
+				<!-- in school mark  -->
+				<div name="in school mark">
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "in-school"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<!--  碩一  -->
+				<div name='study-1'>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "LWY"></div>
+							<div id = "Tony-li"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "vic-hsu"></div>
+							<div id = "9i-lin"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+					<br>
+					<br>
+				</div>
+				<!--  碩二  -->
+				<div name='study-2'>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "kuan-hung-shih"></div>
+							<div id = "tiger-hsu"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "cat-lin"></div>
+							<div id = "wei-aniki"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "kelly-wu"></div>
+							<div id = "Darren-chuang"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+				</div>
+				<!--畢業學長姊-->
+				<!-- alumin mark  -->
+				<div name="alumin mark">
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "alumni"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<!--  2017  -->
+				<div name='grad-2017'>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "bo-cheng-tsai"></div>
+							<div id = "Pei-Yin-Chou"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "Ting-Yun-Hsiao"></div>
+							<div id = "jow-han-huang"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "chen-jung-wu"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+				</div>
+				<!-- 2016 -->
+				<div name='grad-2016'>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "Yi-Chen-Wu"></div>
+							<div id = "wei-ting-hsiao"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "cheng-li-lo"></div>
+							<div id = "bo-xian-jang"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "jou-lin"></div>
+							<div id = "yu-fu-mai"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "chentc"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2015  -->
+				<div name="grad-2015">
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "alumni"></div>
+							<div id = "tsai-te-chu"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "coco"></div>
+							<div id = "asun-chan"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "aaron"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2014  -->
+				<div name="grad-2014">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "14-1"></div>
+							<div id = "14-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "14-3"></div>
+							<div id = "14-4"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "14-5"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2013  -->
+				<div name="grad-2013">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "13-1"></div>
+							<div id = "13-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "13-3"></div>
+							<div id = "13-4"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2012  -->
+				<div name="grad-2012">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "12-1"></div>
+							<div id = "12-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "12-3"></div>
+							<div id = "12-4"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2011  -->
+				<div name="grad-2011">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "11-1"></div>
+							<div id = "11-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "11-3"></div>
+							<div id = "11-4"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2010  -->
+				<div name="grad-2010">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "10-1"></div>
+							<div id = "10-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "10-3"></div>
+							<div id = "10-4"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2009  -->
+				<div name="grad-2009">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "09-1"></div>
+							<div id = "09-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+				<!--  2008  -->
+				<div name="grad-2008">
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "08-1"></div>
+							<div id = "08-2"></div>
+						</div><!-- <div class = "row"> -->
+					</div>
+					<br>
+					<br>
+					<div class="container templatemo_hexteam s_top">
+						<div class="row">
+							<div id = "08-3"></div>
+						</div><!-- <div class = "row"> -->
+					</div>	
+				</div>
+			</div>
+				<!--  更早的  -->
+			<div name="2008-">
+				<br>
+				<br>
+				<div class="container templatemo_hexteam s_top">
+					<div class="row">
+						<div style = "width:100%;" id="ancestor">
+						</div>
+					</div><!-- <div class = "row"> -->
+				</div>
+			</div>
+	 
+			<script>
+				/*printMem("id & image name", "email", "畢業論文", "畢業時間",  0左 1右,  "畢業任職", "中文名字");*/
+				printTitle("teacher", "Professor");
+				printMem("ctchiu"	, "ctchiu@cs.nthu.edu.tw"     , "多媒體信號處理演算法、電腦視覺演算法、超大型積體電路設計、多媒體信號處理與電腦視覺之多核心與平台加速", "<a href='http://www.cs.nthu.edu.tw/~ctchiu/' style='text-decoration:none;'>More detail</a>", 1,  "Professor", "邱瀞德");
+				printMem("tshsien"	, "tshsien@gmail.com" , "PhD Student", "-", 0,  "student", "王尊賢");
+				printMem("phd-chung"	, "d9562842@oz.nthu.edu.tw" , "PhD Student", "-", 1,  "student", "張雍昌");
+				printTitle("in-school", "In School");
+				// 2017入學
+				printMem("LWY", "dd800820@gmail.com", "1st graduate", "2017-", 0,  "student", "羅文易");
+				printMem("Tony-li", "tonyli0803@gmail.com", "1st graduate", "2017-", 1,  "student", "黎光健");
+				printMem("vic-hsu", "demon813@gmail.com", "1st graduate", "2017-", 0, "student", "許家和");
+				printMem("9i-lin","hi09245@gmail.com", "1st graduate", "2017-", 1, "student", "林久愛");
+				// 2016入學
+				printMem("kuan-hung-shih", "s105062594@m105.nthu.edu.tw", "2nd graduate", "2016-", 0,  "student", "施冠宏");
+				printMem("tiger-hsu", "jeff830107@gmail.com", "2nd graduate", "2016-", 1,  "student", "徐連志");
+				printMem("cat-lin", "dodolin0715@gmail.com", "2nd graduate", "2016-", 0, "student", "林子盈");
+				printMem("wei-aniki","wt28562822@gmail.com", "2nd graduate", "2016-", 1, "student", "葉則緯");
+				printMem("kelly-wu","k64311@gmail.com", "2nd graduate", "2016-", 0, "student", "吳孟潔");
+				printMem("Darren-chuang","darren.chuang.001@gmail.com", "1st graduate", "2016-", 1, "student", "莊大慶");
+				// 2017畢業
+				printMem("bo-cheng-tsai"	, "vigorous0503@gmail.com"     , "Object Detection", "2017", 0,  "Ambarella", "蔡博丞");
+				printMem("Pei-Yin-Chou"	, "jennifera06@gmail.com"        , "Fingerprint Recognition", "2017", 1,  "Synology", "周珮吟");
+				printMem("Ting-Yun-Hsiao", "ph80128b@yahoo.com.tw"      , "deep learning model compression", "2017", 0, "", "蕭婷云");
+				printMem("jow-han-huang",  "jowhan791008@hotmail.com", "Fingerprint Recognition", "2017", 1, "MStar", "黃昭翰");
+				printMem("chen-jung-wu",     "lineup730@gmail.com"   , "Fingerprint Recognition", "2017", 0, "THEIA", "吳振榮");
+				// 2016畢業
+				printMem("Yi-Chen-Wu"		, "xdd3732@gmail.com"		, "Foreground Detection"	, "2016", 0,  "MTK", "吳易展");
+				printMem("wei-ting-hsiao"	, "q983320@gmail.com"		, "High Dynamic Range Photography"	, "2016", 1,  "ASUS", "蕭尉庭");
+				printMem("cheng-li-lo"		, "jf7642@gmail.com"		, "Image Super-Resolution"		, "2016", 0,  "MSTAR", "羅盛醴");
+				printMem("bo-xian-jang"		, "tffc797143@gmail.com"	, "Face Recognition"	, "2014-", 1,  "", "張柏賢");
+				printMem("jou-lin"			, "snowy1307@gmail.com"	, "Face Recognition"	, "2016", 0,  "TSMC", "林  柔");
+				printMem("yu-fu-mai"		, "cgsh30141@gmail.com"	, "High Dynamic Range Photography"	, "2016", 1,  "Military", "麥育輔");
+				printMem("chentc"			, "srocyrt@gmail.com"	, "Image Inpainting"	, "2014-", 0,  "", "陳宗辰");
+				// 2015 畢業
+				printTitle("alumni", "Alumni");
+				printMem("tsai-te-chu", "tsaite.chu@gmail.com"    			, "Design and Implementation of Fingerprint Recognition Using Minutiae Disk Code (MDC)", "2015", 1,  "MTK", "朱財德");
+				printMem("coco"			, "coco800128@yahoo.com.tw"	, "Fingerprint Recognition Using Minutiae and Ridges Information", "2015", 0,  "ASUS", "廖楚喬");
+				printMem("asun-chan"	, "asunmoon25@hotmail.com"	, "Classifying and Predicting Respiratory Function based on Gait Analysis", "2015", 1,  "ASUS", "詹育陞");
+				printMem("aaron"			, "aaron19891218@hotmail.com", "High Dynamic Range Video Processing Using Pseudo-Multiple-Exposures with Local Specular Region Enhancement", "2015", 0,  "Military service", "林鈞義"); // 當兵中
+				// 2014 畢業
+				printMem("14-1", "b9299@hotmail.com", "Gait Analysis of Human Body on embedded system", "2014",  0,  "-", "簡彥文");
+				printMem("14-2", "heatfire0812@gmail.com", "LOCAL BINARY PATTERN ORIENTATION BASED FACE RECOGNITION", "2014",  1,  "正文科技", "沈怡康");
+				printMem("14-3", "royal.619@hotmail.com", "Gradient-Based Image Super-Resolution with Local Self Similarity", "2014",  0,  "ASUS", "郭洛墉");
+				printMem("14-4", "angela28582594@hotmail.com", "Edge-based Motion and Intensity Prediction for Video Super-Resolution", "2014",  1,  "ASUS", "王貞文");
+				printMem("14-5", "holmes310524@gmail.com", "A GPU-Accelerated Object Recognition System Using Adaboost Algorithm*(*共同指導: 許雅三、邱瀞德)", "2014",  0,  "", "蔡品儀");
+				// 2013 畢業
+				printMem("13-1", "likeet171819@yahoo.com.tw", "Feature Extraction of Human Body for Gait Analysis and Recognition", "2013",  0,  "TSMC", "曹濚方");
+				printMem("13-2", "s960453@mail.yzu.edu.tw", "Study of Efficient Multiple Object Detection and Hardware Implementation", "2013",  1,  "MSTAR", "楊燿聰");
+				printMem("13-3", "thenthey@gmail.com", "Low Cost Illumination Invariant Face Recognition by Down-Up Sampling Self Quotient Image", "2013",  0,  "TSMC", "林立");
+				printMem("13-4", "reli731206.cs96@g2.nctu.edu.tw", "Edge Curve Scaling and Smoothing with Cubic Spline Interpolation for Image Up-Scaling", "2013",  1,  "MSTAR", "吳維宸");
+				// 2012 畢業
+				printMem("12-1", "vigle7@gmail.com", "Pseudo-Multiple-Exposure based Tone Fusion with Local Region Adjustment", "2012",  0,  "-", "邱檉文");
+				printMem("12-2", "ichiro188@hotmail.com", "A Low Cost Human Posture Recognition Based on Feature Extraction for Real-Time Applications", "2012",  1,  "ASUS", "蔡易澂");
+				printMem("12-3", "bleckmans@hotmail.com", "Design and Implementation of a Local Fault-Tolerant Multicast Router in Fat Trees", "2012",  0,  "-", "李冠賦");
+				printMem("12-4", "andy751026@hotmail.com", "Cluster-Based CAN with Enhance Transmission Capability for Vehicle Networks*(*共同指導: 許雅三、邱瀞德)", "2012",  1,  "-", "劉韋志");
+				//2011 畢業
+				printMem("11-1", "andy751026@hotmail.com", "Data Center Switch for Fault Tolerant Fat-Tree Networks", "2011",  0,  "Mentor Graphics", "賴韋志");
+				printMem("11-2", "longman191@gmail.com", "Handover Delay Reduction and Buffer-Based Data Recovery Scheme for Inter Multicast Broadcast Service Zone", "2011",  1,  "慧榮", "李斯愷");
+				printMem("11-3", "guestoo@msn.com", "Texture Classification Based On Median Vectors And Directional Patterns For Face Recognition", "2011",  0,  "AMBA", "吳權哲");
+				printMem("11-4", "fifish1006@gmail.com", "A Multicast Routing in Fat-Tree Networks", "2011",  1,  "玉山銀行", "葉柏廷");
+				//2010 畢業
+				printMem("10-1", "g9762515@oz.nthu.edu.tw", "Scene Motion based Saliency Prediction for JND Adjusted Video Compression", "2010",  0,  "Sun plus", "王瑞鈞");
+				printMem("10-2", "g9762594@oz.nthu.edu.tw", "A Transition Embedded Low Power Coding Scheme For Serial Link Interface", "2010",  1,  "MSTAR", "黃文智");
+				printMem("10-3", "u932503.nthu@gmail.com", "Inverse Tone Mapping Operators Evaluation Using JND-Based Contrast Analysis and Blind Image Quality Assessment", "2010",  0,  "MSTAR", "陳志榮");
+				printMem("10-4", "g9662606@oz.nthu.edu.tw", "Design and Implementation of Low Area AES Architecture", "2010",  1,  "ASUS", "陳均輔");
+				//2009 畢業
+				printMem("09-1", "thymine666@gmail.com", "Switching Bilateral Filtering with a Texture/Noise Detector for Universal Noise Removal", "2009",  0,  "點晶科技", "蔡佳軒");
+				printMem("09-2", "g9662511@oz.nthu.edu.tw", "BiGTA/SWCE: Image Enhancement with Bilateral Tone Adjustment and Saliency Weighted Contrast Enhancement", "2009",  1,  "MSTAR", "柯瑋明");
+				//2008 畢業
+				printMem("08-1", "wsweng0606@gmail.com", "Design and Implementation of a Boosted Cascade Based Face Detection System", "2008",  0,  "MSTAR", "翁尉書");
+				printMem("08-2", "rik296@gmail.com", "Design and Implementation of A Real-Time Low Noise and Edge Preserving Bilateral Filter", "2008",  1,  "智原科技", "蔡昆哲");
+				printMem("08-3", "-", "A High Speed Symmetric Time-Division Multiplexing Switch System with Virtual Output Queuing*(*共同指導: 許雅三、邱瀞德)", "2008",  0,  "台灣積體電路", "林洋緒");
+				//
+				//printMem("id & image name", "email", "畢業論文", "2008",  0左 1右,  "畢業任職", "中文名字");
+				read_file("fonts/students2.txt", "ancestor");
+			</script>
+	<div class="templatemo_footer">
+		<div class="container">
+			<div class="row">
+    				<div class="col-md-9 col-sm-12">
+        				<span>Copyright &copy; 2016 Yu, Yun</span>
+        			</div>
+        			<div class="col-md-3 col-sm-12 templatemo_rfooter">
+            				<img src="images/nasic2.png" style="width:50%;height: 50%;"/>
+        			</div>
+    			</div>
+    		</div>
+	</div>
+</body>
+</html>
+  
